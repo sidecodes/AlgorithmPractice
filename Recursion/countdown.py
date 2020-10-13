@@ -1,4 +1,4 @@
-# recursion to implement a countdown counter
+# recursion countdown counter
 
 def countdown(x):
     if x == 0:
@@ -9,4 +9,4 @@ def countdown(x):
         countdown(x-1)
 
 
-countdown(5)
+countdown(10)
